@@ -422,6 +422,7 @@ td:last-child {
   padding: 17px 34px;
   color: #e7f3ec;
   cursor: pointer;
+  border: none;
 }
 
 .newsletter_hero {
@@ -434,6 +435,7 @@ td:last-child {
   background: #c6e4d6;
   padding: 80px 100px;
   border-radius: 24px;
+  margin-bottom: 70px;
 }
 
 .newsletter_hero {
@@ -445,6 +447,16 @@ footer {
   background: #fff;
 }
 
-footer > h1 {
+footer > .footer_title h1 {
   text-align: center;
+  padding: 20px;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.1);
+}
+
+.footer_icon {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
 }
