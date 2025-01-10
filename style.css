@@ -59,7 +59,7 @@ body {
   color: #0e0e0e;
   font-weight: bold;
   font-style: normal;
-  font-size: 56px;
+  font-size: 40px;
   margin-top: 15px;
 }
 
@@ -197,9 +197,13 @@ p {
 .quotes {
   border: 1px solid rgba(14, 14, 14, 0.15);
   background: #fff;
+  background-image: url(./assets/fi_2087863.png);
+  background-repeat: no-repeat;
   margin-top: 30px;
   padding: 48px 24px;
   border-radius: 16px;
+  background-position-x: 23px;
+  background-position-y: 35px;
 }
 
 .quotes_next {
@@ -308,6 +312,10 @@ td:last-child {
   max-height: 100%;
   object-fit: contain;
   border-radius: 24px;
+}
+
+.dfimg img {
+  width: 20%;
 }
 
 .article_dtls {
