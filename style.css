@@ -553,3 +553,7 @@ td:first-child:hover {
   background-color: #d4d9d7;
   transition: all 400ms;
 }
+
+.footer_icon img:hover {
+  width: 20px;
+}
