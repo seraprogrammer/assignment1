@@ -14,7 +14,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 35px 145px;
+  padding: 35px 115px;
 }
 .header_nav > p {
   color: black;
@@ -204,6 +204,9 @@ p {
   border-radius: 16px;
   background-position-x: 23px;
   background-position-y: 35px;
+  transition: all 300ms ease-in-out;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .quotes_next {
@@ -388,6 +391,7 @@ td:last-child {
   margin-top: 30px;
   border: none;
   text-align: center;
+  outline: none;
 }
 
 .donate_button {
@@ -428,6 +432,7 @@ td:last-child {
   width: 30%;
   border: none;
   border-radius: 8px 0px 0px 8px;
+  outline: none;
 }
 
 .newsletter button {
@@ -474,4 +479,77 @@ footer > .footer_title h1 {
   justify-content: center;
   align-items: center;
   gap: 20px;
+}
+
+.header_nav > button:hover {
+  background-color: #01af84;
+  color: white;
+  transition: all 300ms;
+}
+
+.left_hero > button:hover {
+  background-color: #01af84;
+  color: white;
+  transition: all 300ms;
+}
+
+.Vision_card > button:hover {
+  background-color: #007bff;
+  color: white;
+  transition: all 300ms ease-in-out;
+}
+
+.main_article button:hover {
+  background-color: #01af84;
+  color: white;
+  transition: all 300ms;
+}
+
+.donate_button button:hover {
+  background-color: #01af84;
+  color: white;
+  transition: all 300ms;
+}
+.newsletter button:hover {
+  background-color: #01af84;
+  color: white;
+  transition: all 300ms;
+}
+
+.card:hover {
+  background-color: #0dfffc0f;
+  transition: all 300ms;
+}
+
+.Vision_card:hover {
+  background-color: #343a40;
+  color: white;
+  transition: all 400ms;
+}
+
+.quotes:hover {
+  background-color: #f8f9fa;
+  transition: all 400ms;
+}
+
+td:first-child:hover {
+  background-color: #79a59947;
+  transition: all 400ms;
+}
+.main_article:hover {
+  background-color: #e3e3e3;
+  transition: all 400ms;
+}
+
+.donate_card:hover {
+  background-color: #c6e4d6;
+  transition: all 400ms;
+}
+.hero:hover {
+  background-color: #d4d9d7;
+  transition: all 400ms;
+}
+.newsletter_box:hover {
+  background-color: #d4d9d7;
+  transition: all 400ms;
 }
